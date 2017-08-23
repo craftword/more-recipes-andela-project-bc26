@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/craftword/more-recipes-andela-project-bc26#readme",
   "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
     "chai": "^4.1.0",
     "eslint": "^4.2.0",
     "gulp": "^3.9.1",
