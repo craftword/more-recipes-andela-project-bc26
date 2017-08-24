@@ -1,0 +1,15 @@
+/* Welcome to More-Recipe Project
+*
+*/
+
+
+.bkgrd {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+      
+}
+
+.logo {
+   margin-top: 6px;
+}
