@@ -12,4 +12,18 @@
 
 .logo {
    margin-top: 6px;
+   margin-bottom: 50px;
+}
+
+.head {
+    font-family:"Berlin San FB";
+    font-size: 64px;
+    font-weight:bold;
+    color: #fff; 
+}
+.moto {
+   font-family:"Monotype Corsiva";
+    font-size: 38px;
+    text-shadow: 1px 1px #669d35;
+    color: #fff;  
 }
