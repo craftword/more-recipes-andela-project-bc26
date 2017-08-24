@@ -7,6 +7,8 @@
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 50px 0;
       
 }
 
@@ -27,3 +29,32 @@
     text-shadow: 1px 1px #669d35;
     color: #fff;  
 }
+ /************ User Administration Section ******************/
+
+/* Creates a vertical nav starting at 768px (sm) */
+@media (min-width: 768px) {
+    .vertical-nav {
+                margin-top: 25px;
+            }
+
+    .vertical-nav .collapse {
+        display: block;
+    }
+}
+
+/* Set black background color, white text and some padding */
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 5px;
+    }
+/* Set gray background color and 100% height */
+    .sidenav {
+      height: auto;
+      border-right-color: #669d35; 
+      border-right-style:solid;
+      border-right-width: 1px;
+      
+      
+    }
+
