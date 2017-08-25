@@ -30,8 +30,7 @@
     color: #fff;  
 }
  /************ User Administration Section ******************/
-
-/* Creates a vertical nav starting at 768px (sm) */
+ /* Creates a vertical nav starting at 768px (sm) */
 @media (min-width: 768px) {
     .vertical-nav {
                 margin-top: 25px;
@@ -43,18 +42,40 @@
 }
 
 /* Set black background color, white text and some padding */
-    footer {
-      background-color: #000;
+footer {
+      background-color: #3359df;
       color: white;
       padding: 5px;
-    }
+}
 /* Set gray background color and 100% height */
-    .sidenav {
+.sidenav {
       height: auto;
-      border-right-color: #669d35; 
+      border-right-color: #3359df; 
       border-right-style:solid;
-      border-right-width: 1px;
+      border-right-width: 1px;      
       
-      
-    }
+}
+
+.sidenav li {
+    display: block;
+    margin-left: -5px;
+    margin-bottom: 5px;
+    
+}
+
+.sidenav li a:active {
+   background-color: #6582ef;
+
+}
+
+.sidenav li a:hover {
+   background-color: #475ba7;
+   color: #fff;
+   border-left:#ccc solid 3px; 
+
+}
+
+.sidenav li .badge {
+    float: right;
+}
 
