@@ -109,6 +109,9 @@ footer {
   display: inline-block;
   margin-left: 5px;
   font-weight: 600; }
+.recipes-list > li .time {
+   float: right;
+   }
 
 .recipes-list > li .label {
   margin-left: 10px;
