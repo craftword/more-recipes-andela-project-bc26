@@ -111,6 +111,8 @@ footer {
   font-weight: 600; }
 .recipes-list > li .time {
    float: right;
+   font-family:"Monotype Corsiva";
+    font-size: 14px;
    }
 
 .recipes-list > li .label {
