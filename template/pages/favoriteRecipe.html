@@ -81,8 +81,8 @@
                             <span class="text">Ewa and Fried Plantain </span>
                             <!-- General tools such as view or delete-->
                             <div class="tools">
-                                <i class="fa fa-eye"></i>
-                                <i class="fa fa-trash-o"></i>
+                                 <a href="detailRecipe.html"><i class="fa fa-eye"></i></a>
+                                <i class="fa fa-trash-o" id="delete"></i>
                             </div>
                         </li>
                         <li>
@@ -93,8 +93,8 @@
                             <input type="checkbox" value="" name="">
                             <span class="text">Ofada Rice with Sauce</span>
                             <div class="tools">
-                                <i class="fa fa-eye"></i>
-                                <i class="fa fa-trash-o"></i>
+                                 <a href="detailRecipe.html"><i class="fa fa-eye"></i></a>
+                                <i class="fa fa-trash-o" id="delete"></i>
                             </div>
                         </li>
                         <li>
@@ -105,8 +105,8 @@
                             <input type="checkbox" value="" name="">
                             <span class="text">Ogbono Soup </span>
                             <div class="tools">
-                                <i class="fa fa-eye"></i>
-                                <i class="fa fa-trash-o"></i>
+                                 <a href="detailRecipe.html"><i class="fa fa-eye"></i></a>
+                                <i class="fa fa-trash-o" id="delete"></i>
                             </div>
                         </li>
                         <li>
@@ -117,8 +117,8 @@
                             <input type="checkbox" value="" name="">
                             <span class="text">Okra Soup</span>
                             <div class="tools">
-                                <i class="fa fa-eye"></i>
-                                <i class="fa fa-trash-o"></i>
+                                 <a href="detailRecipe.html"><i class="fa fa-eye"></i></a>
+                                <i class="fa fa-trash-o" id="delete"></i>
                             </div>
                         </li>
                         <li>
@@ -129,8 +129,8 @@
                             <input type="checkbox" value="" name="">
                             <span class="text"> Fufu with Egusi and Efo</span>
                             <div class="tools">
-                                <i class="fa fa-eye"></i>
-                                <i class="fa fa-trash-o"></i>
+                                 <a href="detailRecipe.html"><i class="fa fa-eye"></i></a>
+                                <i class="fa fa-trash-o" id="delete"></i>
                             </div>
                         </li>
                         
@@ -187,5 +187,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+<script>
+    $("#delete").on("click", ()=> {
+        confirm("Are sure you want to delete this recipe");
+    });
+</script>
 </body>
 </html>
