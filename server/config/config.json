@@ -1,23 +1,26 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "nkqkkeee",
+    "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
+    "database": "nkqkkeee",
+    "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
+    "host":"tantor.db.elephantsql.com",
+    "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "nkqkkeee",
+    "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
+    "database": "nkqkkeee",
+    "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
+    "host":"tantor.db.elephantsql.com",
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "nkqkkeee",
+    "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
+    "database": "nkqkkeee",
+    "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
+    "host":"tantor.db.elephantsql.com",
+    "dialect": "postgres"
   }
 }
