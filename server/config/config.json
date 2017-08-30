@@ -3,8 +3,8 @@
     "username": "nkqkkeee",
     "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
     "database": "nkqkkeee",
-    "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
-    "host":"tantor.db.elephantsql.com",
+    "url": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
+    "host":"hard-plum.db.elephantsql.com",
     "dialect": "postgres"
   },
   "test": {
@@ -12,7 +12,7 @@
     "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
     "database": "nkqkkeee",
     "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
-    "host":"tantor.db.elephantsql.com",
+    "host":"hard-plum.db.elephantsql.com",
     "dialect": "postgres"
   },
   "production": {
@@ -20,7 +20,7 @@
     "password": "8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V",
     "database": "nkqkkeee",
     "use_env_variable": "postgres://nkqkkeee:8tG_ULDk50BWewPgB4IxHKiFPtmbjo6V@hard-plum.db.elephantsql.com:5432/nkqkkeee",
-    "host":"tantor.db.elephantsql.com",
+    "host":"hard-plum.db.elephantsql.com",
     "dialect": "postgres"
   }
 }
