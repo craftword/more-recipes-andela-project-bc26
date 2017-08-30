@@ -1,13 +1,45 @@
-'use strict';
-module.exports = function(sequelize, DataTypes) {
-  var Recipes = sequelize.define('Recipes', {
-    name: DataTypes.STRING
-  }, {
-    classMethods: {
-      associate: function(models) {
-        // associations can be defined here
-      }
-    }
-  });
-  return Recipes;
+"use strict";
+
+const Recipes = (sequelize, DataTypes) => {
+    const Recipes = sequelize.define("Recipes", {
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false,            
+        },
+        description: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        ingredients: {            
+            type: DataTypes.TEXT,
+            allowNull: false,
+        },
+        directions: {
+            type: DataTypes.TEXT,
+            allowNull: false,
+            isEmail: true, 
+        },
+        thumbnail: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
+        userId: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        }
+        
+           
+    });
+    Recipes.associate = (model) => {
+        Recipes.belongsTo(models.Users, {
+            foreignKey: "userId",
+            onDelete: "CASCADE",
+        });
+             
+    };
+    
+
+    return Recipes;
 };
+
+export default Recipes;
