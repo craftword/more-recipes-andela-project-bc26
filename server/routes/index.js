@@ -1,6 +1,6 @@
 import create from "../controllers/createUser";
 import signIn from "../controllers/signIn";
-import createRecipes from "../controllers/createGroup"; 
+import recipe from "../controllers/recipeController"; 
 
 
 const appApi = (app) => {
@@ -11,14 +11,14 @@ const appApi = (app) => {
     app.post("/api/user/signup", create);
     app.post("/api/user/signin", signIn);
     // Recipe
-    app.post("/api/recipes", createRecipes);
-    app.put("/api/recipes/:recipeId", modifyRecipe);
-    app.delete("/api/recipes/:recipeId", deleteRecipe);
-    app.get("/api/recipes", getAllRecipes);
-    app.post("/api/recipes/:recipeId/review", postComment);
+    app.post("/api/recipes", recipe.create);
+    app.put("/api/recipes/:recipeId", recipe.update);
+    app.delete("/api/recipes/:recipeId", recipe.delete);
+    app.get("/api/recipes", recipe.list);
+    //app.post("/api/recipes/:recipeId/review", postComment);
 
     //Favorite
-    app.get("/api/users/:recipeId/recipes", getFavorites);
+    //app.get("/api/users/:recipeId/recipes", getFavorites);
 
     //Search 
 };
