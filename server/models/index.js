@@ -10,7 +10,7 @@ const db = {};
 // This check the Environment in use whether local and online
 
 let sequelize;
-if (config.use_env_variable) {
+if (config.url) {
     sequelize = new Sequelize(config.url);
 } else {
     sequelize = new Sequelize(
