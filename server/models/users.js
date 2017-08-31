@@ -43,7 +43,7 @@ const Users = (sequelize, DataTypes) => {
         }
            
     });
-    Users.associate = (model) => {
+    Users.associate = (models) => {
         Users.hasMany(models.Recipes, {
             foreignKey: "userId",
             as: "recipe",

@@ -13,7 +13,7 @@ const Notifications = (sequelize, DataTypes) => {
         
            
     });
-    Notifications.associate = (model) => {
+    Notifications.associate = (models) => {
         Notifications.belongsTo(models.Users, {
             foreignKey: "userId",
             onDelete: "CASCADE",
