@@ -13,6 +13,9 @@ const create = (req, res) => {
             fullname: req.body.fullname,
             phone: req.body.phone,
             picture: "img/default.jpg",
+            address:req.body.address,
+            state:req.body.state,
+            country:req.body.state
         })
         .then(users => res.status(201).json({
             "fullname":users.fullname,
