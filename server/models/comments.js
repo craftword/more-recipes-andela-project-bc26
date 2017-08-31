@@ -17,7 +17,7 @@ const Comments = (sequelize, DataTypes) => {
         
            
     });
-    Comments.associate = (model) => {
+    Comments.associate = (models) => {
         Comments.belongsTo(models.Recipes, {
             foreignKey: "recipeId",
             onDelete: "CASCADE",

@@ -13,7 +13,7 @@ const Favorites = (sequelize, DataTypes) => {
         
            
     });
-    Favorites.associate = (model) => {
+    Favorites.associate = (models) => {
         Favorites.belongsTo(models.Users, {
             foreignKey: "userId",
             onDelete: "CASCADE",

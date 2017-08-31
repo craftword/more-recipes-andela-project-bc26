@@ -16,7 +16,7 @@ const Votes = (sequelize, DataTypes) => {
         }        
            
     });
-    Votes.associate = (model) => {
+    Votes.associate = (models) => {
         Votes.belongsTo(models.Recipes, {
             foreignKey: "recipeId",
             onDelete: "CASCADE",

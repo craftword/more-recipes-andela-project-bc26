@@ -30,7 +30,7 @@ const Recipes = (sequelize, DataTypes) => {
         
            
     });
-    Recipes.associate = (model) => {
+    Recipes.associate = (models) => {
         Recipes.belongsTo(models.Users, {
             foreignKey: "userId",
             onDelete: "CASCADE",
