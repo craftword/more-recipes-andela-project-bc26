@@ -17,7 +17,7 @@ const Recipes = (sequelize, DataTypes) => {
         directions: {
             type: DataTypes.TEXT,
             allowNull: false,
-            isEmail: true, 
+            
         },
         thumbnail: {
             type: DataTypes.STRING,
